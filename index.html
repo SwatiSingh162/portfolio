@@ -191,6 +191,43 @@
          color: gray;
          padding: 12px 0;
       }
+      /* MOBILE RESPONSIVE FOR YOUR PORTFOLIO */
+@media (max-width: 768px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Sections stack vertically on mobile */
+    .firstsection, .secondsection {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Boxes inside secondsection */
+    .box {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* Each vertical work box */
+    .vertical {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    /* Navigation menu for mobile */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
    </style>
 </head>
 
